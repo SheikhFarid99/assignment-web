@@ -1,0 +1,115 @@
+@media only screen and (min-width : 768px) {
+
+    nav.nav .nav-item .logo_menu .menu {
+        display: none !important;
+    }
+    nav.nav .nav-item {
+        width: 83% !important;
+    }
+    nav.nav .nav-item .logo_menu {
+        width: auto !important;
+
+    }
+
+    nav.nav .nav-item {
+        display: flex;
+        justify-content: space-between !important;
+        flex-direction: row !important;
+    }
+
+    nav.nav .nav-item .link {
+        padding: 0px 0px !important;
+        display: flex;
+        gap: 30px !important;
+        justify-content: start;
+        align-items: center !important;
+        flex-direction: row !important;
+        background-color: #fff;
+    }
+
+    nav.nav .nav-item .link li {
+        height: 55px;
+    }
+
+    nav.nav .nav-item .link li a {
+        padding-bottom: 0px !important;
+    }
+
+    main.main .main_content {
+        width: 83% !important;
+    }
+
+    main.main .main_content .home_row .my_image img.home_image {
+        margin-left: 50px;
+        display: block;
+    }
+
+    main.main .main_content .home_row .home_details {
+        width: 45%;
+    }
+
+    main.main .main_content .home_row .home_details .det {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    main.main .main_content .home_row .home_details .det p {
+        text-align: start;
+    }
+
+    .main .main_content.about .about_row {
+        padding: 0px 20px !important;
+    }
+
+    .works {
+        grid-template-columns: repeat(2, 2fr) !important;
+    }
+
+    .works .card img {
+        height: 300px !important;
+    }
+
+    main.main .main_content .home_row .my_image {
+        width: 55% !important;
+    }
+
+    main.main .main_content .home_row .contact_form {
+        width: 45% !important;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    main.main .main_content.about .about_row .image_pic {
+        width: 350px !important;
+    }
+
+    .image_pic .image {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    .about_details {
+        width: calc(100% - 350px) !important;
+        margin-top: 0px;
+    }
+
+    .about_details div {
+        padding: 0px 30px !important;
+    }
+
+    .works .card img {
+        height: 320px !important;
+    }
+
+}
+
+@media only screen and (min-width : 1480px) {
+    main.main .main_content {
+        width: 65% !important;
+    }
+    nav.nav .nav-item {
+        width: 65% !important;
+    }
+}
