@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../dist/css/style.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
+    <title>Artical Details</title>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <div class="nav-item">
+            <div class="logo_menu">
+                <a aria-label="logo" href="../index.html" class="logo">
+                    <img src="../dist/images/logo.png" alt="">
+                </a>
+                <div id="menu" class="menu">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+            </div>
+            <ul class="link">
+                <li>
+                    <a class="active" href="../index.html">Home</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../about.html">About me</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../work.html">Work</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../contact.html">Contact me</a>
+                    <div class="bar"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="main_content">
+            <div class="home_row">
+                <div class="details_artical">
+                    <img  src="../dist/images/image2.jpg" alt="image">
+                    <p>Yoga can help increase flexibility and balance, but the ancient practice could have another benefit: helping to lower high blood pressure.
+
+                        Researchers recruited 60 people diagnosed with high blood pressure and metabolic syndrome, a cluster of conditions that raises the risk of heart problems and stroke. Participants were randomly divided into two groups. For three months, everyone did 30 minutes of aerobic exercise five days a week followed by either 15 minutes of yoga or 15 minutes of regular muscle stretching.
+                        
+                        Over the course of the study, people in both groups improved their resting blood pressure and resting heart rate (the number of heartbeats in a minute), although the yoga practitioners did better. Those in the yoga group also lowered their systolic blood pressure (the top number in a reading) by 10 points, compared with just 4 points for the stretching group. And they significantly reduced their 10-year risk for a heart attack or stroke compared with the stretching group.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright (c) 2023 it.scu.edu.au. All rights reserved. Design by <a href="about.html">Zubayer Hossen</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu')
+        const nav = document.getElementById('nav')
+
+        menu.addEventListener('click', () => {
+            nav.classList.toggle('toggle')
+        })
+
+    </script>
+</body>
+
+</html>

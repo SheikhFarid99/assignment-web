@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../dist/css/style.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
+    <title>Artical Details</title>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <div class="nav-item">
+            <div class="logo_menu">
+                <a aria-label="logo" href="../index.html" class="logo">
+                    <img src="../dist/images/logo.png" alt="">
+                </a>
+                <div id="menu" class="menu">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+            </div>
+            <ul class="link">
+                <li>
+                    <a class="active" href="../index.html">Home</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../about.html">About me</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../work.html">Work</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../contact.html">Contact me</a>
+                    <div class="bar"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="main_content">
+            <div class="home_row">
+                <div class="details_artical">
+                    <img src="../dist/images/image3.jpg" alt="image">
+                    <p>On average, adults who don’t do strength training on a regular basis can lose 4 to 6 pounds of
+                        muscle per decade.
+
+                        Over time, loss of muscle strength can put everyday activities out of reach—activi­ties such as
+                        walking, cleaning, shopping, and even dressing. They hinder your ability to cope with and
+                        recover from an illness or injury. Loss of muscle mass can also lead to dangerous falls, which
+                        may result in disability or even death. There are other specific health benefits to strength and
+                        power training, such as better blood sugar control and a slowing of bone loss.
+
+                        Strength training can help you build muscle, make you strong, increase your endurance and make
+                        everyday activities easier. Most adults should do strength training exercises at least two days
+                        a week, according to the federal activity guidelines. Beginners should start with exercise bands
+                        or light hand weights. If you’re more experienced, weight machines are a good option.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright (c) 2023 it.scu.edu.au. All rights reserved. Design by <a href="about.html">Zubayer Hossen</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu')
+        const nav = document.getElementById('nav')
+
+        menu.addEventListener('click', () => {
+            nav.classList.toggle('toggle')
+        })
+
+    </script>
+</body>
+
+</html>

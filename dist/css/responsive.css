@@ -3,9 +3,11 @@
     nav.nav .nav-item .logo_menu .menu {
         display: none !important;
     }
+
     nav.nav .nav-item {
         width: 83% !important;
     }
+
     nav.nav .nav-item .logo_menu {
         width: auto !important;
 
@@ -44,19 +46,19 @@
         display: block;
     }
 
-    main.main .main_content .home_row .home_details {
-        width: 45%;
+    main.main .main_content .home_row .details_artical {
+        width: 70%;
+        margin: auto;
     }
 
-    main.main .main_content .home_row .home_details .det {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+    main.main .main_content .home_row .home_details .other_post {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
-    main.main .main_content .home_row .home_details .det p {
-        text-align: start;
+    main.main .main_content .home_row .home_image {
+        padding-left: 10px;
     }
 
     .main .main_content.about .about_row {
@@ -72,15 +74,34 @@
     }
 
     main.main .main_content .home_row .my_image {
-        width: 55% !important;
+        width: 50% !important;
     }
 
     main.main .main_content .home_row .contact_form {
-        width: 45% !important;
+        width: 50% !important;
     }
 }
 
 @media only screen and (min-width : 992px) {
+
+    main.main .main_content .home_row .home_details {
+        width: 65%;
+    }
+
+    main.main .main_content .home_row .right_side {
+        width: 35%;
+        margin-top: 0;
+    }
+
+    main.main .main_content .home_row .home_details .det {
+        padding-right: 10px !important;
+    }
+
+    main.main .main_content .home_row .right_side .right_side_div {
+        padding-left: 10px;
+
+    }
+
     main.main .main_content.about .about_row .image_pic {
         width: 350px !important;
     }
@@ -100,7 +121,7 @@
     }
 
     .works .card img {
-        height: 320px !important;
+        height: 330px !important;
     }
 
 }
@@ -109,6 +130,7 @@
     main.main .main_content {
         width: 65% !important;
     }
+
     nav.nav .nav-item {
         width: 65% !important;
     }

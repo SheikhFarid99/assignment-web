@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../dist/css/style.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
+    <title>Artical Details</title>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <div class="nav-item">
+            <div class="logo_menu">
+                <a aria-label="logo" href="../index.html" class="logo">
+                    <img src="../dist/images/logo.png" alt="">
+                </a>
+                <div id="menu" class="menu">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+            </div>
+            <ul class="link">
+                <li>
+                    <a class="active" href="../index.html">Home</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../about.html">About me</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../work.html">Work</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../contact.html">Contact me</a>
+                    <div class="bar"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="main_content">
+            <div class="home_row">
+                <div class="details_artical">
+                    <img  src="../dist/images/image5.jpg" alt="image">
+                    <br />
+
+                    <p>It can’t be emphasized enough: engaging in physical activity is the single most important thing
+                        you can do to maintain mobility and independence, no matter your age or your health status. It
+                        can help you control your weight. It’s the key to keeping your muscles and bones strong, your
+                        joints working properly, your heart healthy, and your metabolism revved. The more you move, the
+                        better your strength and balance will be, and the less likely you will be to fall or lose the
+                        ability to perform basic daily functions. And that’s on top of all the other health benefits of
+                        regular exercise, such as reduced risks of cardiovascular disease, type 2 diabetes, and some
+                        cancers. Exercise even has positive effects on mood and may help improve cognitive function.</p>
+                    <br />
+                    <p>In addition to doing targeted exercises for muscle strength and flexibility, joint health, and
+                        balance, you should strive to increase routine daily physical activities that aren’t formal
+                        exercise, such as climbing stairs. If you’re in pain, all this activity may seem impossible. But
+                        in many cases, exercise actually helps reduce the pain. If you have osteoarthritis, for example,
+                        regular exercise not only helps maintain joint function, but also helps relieve stiffness and
+                        diminishes pain and fatigue. Maintaining muscle strength can also help dampen stresses on
+                        joints.</p>
+                    <p>How much exercise do you need? For healthy adults, the Physical Activity Guidelines for Americans
+                        from the U.S. Department of Health and Human Services recommend 150 to 300 minutes of moderate
+                        exercise a week, with activity every day. The guidelines also recommend twice-weekly strength
+                        training sessions and balance exercises for older adults at risk of falling. Disability should
+                        not be a reason to refrain from all activity. The guidelines state: "When older adults cannot do
+                        150 minutes of moderate-intensity aerobic activity a week because of chronic conditions, they
+                        should be as physically active as their abilities and conditions allow." Even modest efforts
+                        count. "Move more and sit less throughout the day," the guidelines advise. "Some activity is
+                        better than none."</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright (c) 2023 it.scu.edu.au. All rights reserved. Design by <a href="about.html">Zubayer Hossen</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu')
+        const nav = document.getElementById('nav')
+
+        menu.addEventListener('click', () => {
+            nav.classList.toggle('toggle')
+        })
+
+    </script>
+</body>
+
+</html>

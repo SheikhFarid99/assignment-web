@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./dist/css/responsive.css">
+    <link rel="stylesheet" href="./dist/css/responsive.css">
     <link rel="stylesheet" href="./dist/css/style.css">
     <title>My work</title>
 </head>
@@ -19,8 +19,8 @@
     <nav id="nav" class="nav">
         <div class="nav-item">
             <div class="logo_menu">
-                <a href="index.html" class="logo">
-                    <h3>Zubayer Hossen</h3>
+                <a aria-label="logo" href="index.html" class="logo">
+                    <img src="./dist/images/logo.png" alt="">
                 </a>
                 <div id="menu" class="menu">
                     <i class="fa-solid fa-list"></i>
@@ -36,7 +36,7 @@
                     <div class="bar"></div>
                 </li>
                 <li>
-                    <a class="active" href="work.html">Work</a>
+                    <a class="active" href="images.html">Photos</a>
                     <div class="bar"></div>
                 </li>
                 <li>
@@ -48,46 +48,30 @@
     </nav>
     <main class="main">
         <div class="main_content">
-            <h1 class="work_title">My Work</h1>
+            <h1 class="work_title">Photos</h1>
             <div class="works">
                 <div class="card">
-                    <img src="./dist/images/work.jpg" alt="image">
-                    <h3>Facebook Clone</h3>
-                    <h4>Web Design</h4>
-                    <p>Fruity is a fresh food grocery app that can help you buy food online without the need to go
-                        outside and waste time and money.</p>
-                    <a class="btn" href="#"><span>Live view </span><i class="fa-solid fa-right-long"></i></a>
+                    <img src="./dist/images/image1.jpg" alt="image">
                 </div>
                 <div class="card">
-                    <img src="./dist/images/work.jpg" alt="image">
-                    <h3>Facebook Clone</h3>
-                    <h4>Web Design</h4>
-                    <p>Fruity is a fresh food grocery app that can help you buy food online without the need to go
-                        outside and waste time and money.</p>
-                    <a class="btn" href="#"><span>Live view </span><i class="fa-solid fa-right-long"></i></a>
+                    <img src="./dist/images/image2.jpg" alt="image">
                 </div>
                 <div class="card">
-                    <img src="./dist/images/work.jpg" alt="image">
-                    <h3>Facebook Clone</h3>
-                    <h4>Web Design</h4>
-                    <p>Fruity is a fresh food grocery app that can help you buy food online without the need to go
-                        outside and waste time and money.</p>
-                    <a class="btn" href="#"><span>Live view </span><i class="fa-solid fa-right-long"></i></a>
+                    <img src="./dist/images/image3.jpg" alt="image">
                 </div>
                 <div class="card">
-                    <img src="./dist/images/work.jpg" alt="image">
-                    <h3>Facebook Clone</h3>
-                    <h4>Web Design</h4>
-                    <p>Fruity is a fresh food grocery app that can help you buy food online without the need to go
-                        outside and waste time and money.</p>
-                    <a class="btn" href="#"><span>Live view </span><i class="fa-solid fa-right-long"></i></a>
+                    <img src="./dist/images/image4.jpg" alt="image">
+                </div>
+                <div class="card">
+                    <img src="./dist/images/image5.jpg" alt="image">
                 </div>
             </div>
         </div>
     </main>
     <footer>
         <div class="footer">
-            <p>Copyright (c) 2023 it.scu.edu.au. All rights reserved. Design by <a href="about.html">Zubayer Hossen</a></p>
+            <p>Copyright (c) 2023 it.scu.edu.au. All rights reserved. Design by <a href="about.html">Zubayer Hossen</a>
+            </p>
         </div>
     </footer>
     <script>
@@ -96,6 +80,7 @@
         menu.addEventListener('click', () => {
             nav.classList.toggle('toggle')
         })
+
     </script>
 </body>
 

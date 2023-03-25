@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../dist/css/style.css">
+    <link rel="stylesheet" href="../dist/css/responsive.css">
+    <title>Artical Details</title>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <div class="nav-item">
+            <div class="logo_menu">
+                <a aria-label="logo" href="../index.html" class="logo">
+                    <img src="../dist/images/logo.png" alt="">
+                </a>
+                <div id="menu" class="menu">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+            </div>
+            <ul class="link">
+                <li>
+                    <a class="active" href="../index.html">Home</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../about.html">About me</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../work.html">Work</a>
+                    <div class="bar"></div>
+                </li>
+                <li>
+                    <a href="../contact.html">Contact me</a>
+                    <div class="bar"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="main_content">
+            <div class="home_row">
+                <div class="details_artical">
+                    <img src="../dist/images/image1.jpg"
+                        alt="image">
+                    <p>Regular exercise is a prescription for staying healthy and active as you age. But sometimes it’s
+                        not that easy. Many older adults face an injury, illness, health condition, or disability that
+                        makes activities difficult, if not seemingly impossible. If you are in this category, adaptive
+                        sports could be a welcome opportunity.
+
+                        "Eventually, almost everyone will experience some kind of disability that impedes regular
+                        exercise, whether it’s mild arthritis, a joint problem requiring knee or hip replacement,
+                        limited vision, or a more significant physical disability," says Dr. Cheri Blauwet, an associate
+                        professor in Physical Medicine and Rehabilitation at Harvard Medical School and a former
+                        wheelchair racer, who is a seven-time Paralympic medalist and winner of both the Boston and New
+                        York City marathons.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright (c) 2023 it.scu.edu.au. All rights reserved. Design by <a href="about.html">Zubayer Hossen</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu')
+        const nav = document.getElementById('nav')
+
+        menu.addEventListener('click', () => {
+            nav.classList.toggle('toggle')
+        })
+
+    </script>
+</body>
+
+</html>
