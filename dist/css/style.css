@@ -141,9 +141,6 @@ main.main .main_content {
 main.main .main_content .home_row {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center;
-    align-items: center; */
-
 }
 
 main.main .main_content .home_row .home_details {
@@ -153,6 +150,8 @@ main.main .main_content .home_row .home_details {
 main.main .main_content .home_row .details_artical {
     width: 100%;
     margin: auto;
+    background-color: #fff;
+    padding: 14px;
 }
 
 main.main .main_content .home_row .details_artical p {
@@ -435,8 +434,6 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
 }
-
-/* contact page */
 .main .main_content.about {
     padding: 150px 0px 80px 0px;
 }
